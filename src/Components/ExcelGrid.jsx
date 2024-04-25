@@ -161,7 +161,7 @@ import { Key } from 'react-bootstrap-icons';
                   <input
                     type="text"
                     className='GridInput'
-                    value={editedRowData[key]}
+                    value={editedRowData[key] || ''}
                     onChange={(e) => handleInputChange(e, key)}
                   />
                 )

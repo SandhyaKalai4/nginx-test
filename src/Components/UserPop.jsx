@@ -215,7 +215,7 @@ const UserPop = ({ handleClose }) => {
           {filteredData.length === 0 ? (
             <div className="no-data-message" >No data available</div>
           ) : (
-            <table bordered striped className='grid'>
+            <table striped="true" bordered="true" className='grid'>
               <thead className="sticky-header">
                 <tr>
                 {Object.keys(excelData[0] || {}).map((key, index) => (
